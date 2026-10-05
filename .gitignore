@@ -1,0 +1,18 @@
+# 运行态产物（profile / 截图 / HTML 快照）
+.video-publish/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地任务配置（含具体稿件信息，不建议提交）
+job.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

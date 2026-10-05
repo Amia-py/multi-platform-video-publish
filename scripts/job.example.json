@@ -1,0 +1,42 @@
+{
+  "_comment": "一次投稿任务。只用其中一个平台时，删掉其余段即可。路径可写相对 job.json 的相对路径，也可写绝对路径。",
+
+  "bilibili": {
+    "video": "../成片.mp4",
+    "cover": "../封面_1920x1080.png",
+    "title": "视频标题（≤80 字）",
+    "desc": "第一行\n\n【优点】…\n\n【缺点】…\n\n【建议】…",
+    "tags": ["世界计划", "Project SEKAI", "神代类", "宁宁机器人", "技术分析",
+             "具身智能", "安全护栏", "AI安全", "大模型", "ネネロボ"],
+    "_tags_comment": "页面会预填 2 个，脚本按上限 10 补足；顺序即优先级",
+    "partition": ["游戏"],
+    "_partition_comment": "新版分区是 30 项一级平铺列表，没有「手机游戏」这种二级",
+    "profile": "bili_profile"
+  },
+
+  "douyin": {
+    "video": "../成片.mp4",
+    "cover": "../封面_竖版_1080x1920.png",
+    "title": "作品标题（≤30 字）",
+    "desc": "正文第一段\n\n【优点】…\n\n仅用于剧情与安全设计评论。",
+    "topics": ["世界计划", "ProjectSEKAI", "宁宁机器人", "AI安全", "安全护栏"],
+    "_topics_comment": "★ 抖音描述框最多挂 5 个话题，超出的会被忽略（排在前面的优先）",
+    "max_topics": 5,
+    "profile": "dy_profile"
+  },
+
+  "channels": {
+    "video": "../成片.mp4",
+    "cover": "../封面_竖版_1080x1920.png",
+    "short_title": "短标题（≤16 字）",
+    "desc": "正文第一段\n\n【优点】…\n\n#世界计划 #ProjectSEKAI #宁宁机器人 #AI安全",
+    "profile": "sns_profile"
+  },
+
+  "_options": {
+    "state_dir": ".video-publish",
+    "_state_dir_comment": "profile / 截图 / HTML 快照的根目录，默认 <cwd>/.video-publish",
+    "keep_open_sec": 3000,
+    "_keep_open_comment": "填完表后保持浏览器打开的秒数，默认 3000（50 分钟）。关掉窗口 = 本次上传作废"
+  }
+}
