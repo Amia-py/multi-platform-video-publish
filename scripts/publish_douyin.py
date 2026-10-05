@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 Amia-py
 """抖音（中国版）创作者中心投稿（Playwright + 本机 Chrome 持久化 profile）。
 
 用法：

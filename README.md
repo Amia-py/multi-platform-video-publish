@@ -138,4 +138,10 @@ references/douyin-channels.md   抖音 + 视频号现场记录
 
 ## License
 
-MIT
+**GNU AGPL-3.0-or-later** · Copyright (C) 2026 Amia-py
+
+本项目以 [GNU Affero 通用公共许可证第 3 版](LICENSE)（或任何更新版本）发布。
+
+选 AGPL 而不是 MIT 的原因：这是一个**通过网络提供功能**的工具，AGPL 第 13 条
+（Remote Network Interaction）要求"与用户通过网络交互的修改版本，也必须向这些用户提供源码" ——
+有人把它改成托管服务时，改动同样要开源。只在本地自己用的话，AGPL 不增加任何额外义务。
